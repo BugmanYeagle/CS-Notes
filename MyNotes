@@ -6,3 +6,7 @@ OSI七层模型1-7(低到高)
 5.会话层 
 6表示层 
 7.应用层:文件传输协议FTP,HTTP,SMTP
+
+查看windows任务管理器下Nginx的进程命令：tasklist /fi "imagename eq nginx.exe"
+
+杀掉进程：taskkill /pid 18576 /f （ps:18576为进程ID）
